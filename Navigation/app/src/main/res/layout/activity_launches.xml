@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/start_a_standard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start A (standard)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/start_b_standard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start B (standard)"
+        app:layout_constraintStart_toEndOf="@id/start_a_standard"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/start_a_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start A (singleTop)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/start_a_standard"/>
+
+    <Button
+        android:id="@+id/start_b_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start B (singleTop)"
+        app:layout_constraintStart_toEndOf="@id/start_a_stop"
+        app:layout_constraintTop_toBottomOf="@id/start_b_standard"/>
+
+    <Button
+        android:id="@+id/start_a_nt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start A (NEW_TASK,MULTIPLE)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/start_a_stop"/>
+
+    <Button
+        android:id="@+id/start_b_nt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start B (NEW_TASK)"
+        app:layout_constraintStart_toEndOf="@id/start_a_nt"
+        app:layout_constraintTop_toBottomOf="@id/start_b_stop"/>
+
+    <Button
+        android:id="@+id/start_a_ctop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start A (CLEAR_TOP)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/start_a_nt"/>
+
+    <Button
+        android:id="@+id/start_b_ctop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start B (CLEAR_TOP)"
+        app:layout_constraintStart_toEndOf="@id/start_a_ctop"
+        app:layout_constraintTop_toBottomOf="@id/start_b_nt"/>
+
+    <Button
+        android:id="@+id/start_a_ctask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start A (CLEAR_TASK)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/start_a_ctop"/>
+
+    <Button
+        android:id="@+id/start_b_ctask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start B (CLEAR_TASK)"
+        app:layout_constraintStart_toEndOf="@id/start_a_ctask"
+        app:layout_constraintTop_toBottomOf="@id/start_b_ctop"/>
+
+    <Button
+        android:id="@+id/start_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start C (singleInstance)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/start_a_ctask"/>
+
+    <Button
+        android:id="@+id/start_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start D (singleTask)"
+        app:layout_constraintStart_toEndOf="@id/start_c"
+        app:layout_constraintTop_toBottomOf="@id/start_b_ctask"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

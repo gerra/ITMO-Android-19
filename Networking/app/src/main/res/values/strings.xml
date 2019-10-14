@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Networking</string>
+
+    <string name="freeze_ui_btn">Freeze UI thread</string>
+    <string name="download_in_ui_btn">Download in ui</string>
+    <string name="show_ip_thread_btn">Show IP (Thread)</string>
+    <string name="show_ip_async_task_btn">Show IP (AsyncTask)</string>
+    <string name="show_ip_weak_async_task_btn">Show IP (WeakAsyncTask)</string>
+    <string name="start_service_btn">Start Service</string>
+    <string name="start_intent_service_btn">Start IntentService</string>
+    <string name="bind_service_btn">Bind Service</string>
+    <string name="clear_ip">Clear IP</string>
+    <string name="services_btn">Services</string>
+    <string name="async_task_btn">Async task</string>
+    <string name="rates_btn">Rates</string>
+    <string name="reload_rates_btn">Reload</string>
+</resources>

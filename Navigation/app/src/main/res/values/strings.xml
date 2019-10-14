@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="image_transition" translatable="false">image_transition</string>
+</resources>
