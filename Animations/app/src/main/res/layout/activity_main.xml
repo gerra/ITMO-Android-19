@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gerralizza.animations.CustomViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.gerralizza.animations.CustomView
+        android:id="@+id/cv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:xPercent="50"
+        app:yPercent="50"
+        android:textSize="30sp"
+        app:valueColor="@color/colorAccent"
+        app:valueText="@string/app_name"
+        app:intersected="true"/>
+
+</com.gerralizza.animations.CustomViewGroup>

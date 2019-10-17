@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gerralizza.animations.CustomAnimatedView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/fade_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fade in"/>
+
+            <Button
+                android:id="@+id/fade_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fade out"/>
+
+            <Button
+                android:id="@+id/rotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rotate"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/animate_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Animate color"/>
+
+            <Button
+                android:id="@+id/own_fade_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Own fade in"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.gerralizza.animations.CustomAnimatedView>
